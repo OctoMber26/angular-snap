@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg justify-content-center">
+    <div class="container-fluid mx-sm-5">
+      <img class="logo" src="/assets/images/logo.svg" />
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  (click)="clickEvent()">
+                  Features
+                  <img [ngClass]="status ? 'static' : 'rotate'" src="/assets/images/icon-arrow-up.svg"/>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><img class="dropdown-img img-fluid" src="/assets/images/icon-todo.svg"/> ToDo List</a></li>
+                  <li><a class="dropdown-item" href="#"><img class="dropdown-img img-fluid" src="/assets/images/icon-calendar.svg"/> Calendart</a></li>
+                  <li><a class="dropdown-item" href="#"><img class="dropdown-img img-fluid" src="/assets/images/icon-reminders.svg"/> Reminders</a></li>
+                  <li><a class="dropdown-item" href="#"><img class="dropdown-img img-fluid" src="/assets/images/icon-planning.svg"/> Planning</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" (click)="clickEventSeccond()">
+                  Company
+                  <img [ngClass]="status2 ? 'static2' : 'rotate2'" src="/assets/images/icon-arrow-up.svg"/>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">History</a></li>
+                  <li><a class="dropdown-item" href="#">Our Team</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">About</a>
+              </li>
+        </ul>
+        <div class="singIn-section">
+          
+                <a class="login" aria-current="page" href="#">Login</a>
+              
+              <button class="register" type="button">Register</button>
+        </div>
+      </div>
+    </div>
+  </nav>

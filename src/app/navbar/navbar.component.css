@@ -1,0 +1,251 @@
+@media screen and (min-width: 1440px){
+.logo{
+    margin-right: 70px;
+}
+
+.dropdown-menu{
+  text-align: center;
+  width: 170px;
+  padding: 15px;
+  border: none;
+  -webkit-box-shadow: 0px 2px 23px 12px rgba(0,0,0,0.03);
+-moz-box-shadow: 0px 2px 23px 12px rgba(0,0,0,0.03);
+box-shadow: 0px 2px 23px 12px rgba(0,0,0,0.03);
+}
+
+.navbar-nav{
+    column-gap: 30px;
+}
+
+.dropdown-item{
+    color: #2e2e2e;
+    font-size: 13px;
+    text-align: start;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.dropdown-img{
+margin-right: 10px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.static{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.static2{
+    transform: rotate(180deg);
+    transition: 0.5s; 
+}
+
+.rotate{
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.rotate2{
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.nav-link{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: rgb(43, 43, 43);
+}
+
+.login{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: rgb(43, 43, 43);
+}
+
+a:hover {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: rgb(43, 43, 43);
+  }
+
+a:link {
+    text-decoration: none;
+  }
+
+  .register{
+    width: 100px;
+    height:40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #818181;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    color: #818181;
+    margin-top:-12px;
+  }
+
+  .register:hover{
+    width: 100px;
+    height:40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(43, 43, 43);
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    color: rgb(43, 43, 43);
+    transition: 0.5s;
+  }
+
+  .navbar{
+    margin-top: 30px;
+  }
+
+  .singIn-section{
+    column-gap: 50px;
+    display: flex;
+  }
+}
+
+
+@media screen and (max-width:400px){
+  .dropdown-menu{
+    text-align: start;
+    width: 170px;
+    border: none;
+   background-color: transparent;
+  }
+
+  .dropdown-item{
+    color: #2e2e2e;
+    font-size: 13px;
+    text-align: start;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.dropdown-img{
+  margin-right: 10px;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+}
+
+.static{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.static2{
+    transform: rotate(180deg);
+    transition: 0.5s; 
+}
+
+.rotate{
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.rotate2{
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.nav-link{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav-link:hover{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  color: rgb(43, 43, 43);
+}
+
+.login{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  color: rgb(43, 43, 43);
+ 
+}
+
+a:hover {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  color: rgb(43, 43, 43);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.register{
+  width: 80%;
+  height:40px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #818181;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: bolder;
+  font-size: 13px;
+  color: #818181;
+  display: block;
+  margin: auto auto;
+  margin-top: 10px;
+}
+
+.register:hover{
+  height:40px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid rgb(43, 43, 43);
+  font-family: 'Epilogue', sans-serif;
+  font-weight: bolder;
+  font-size: 13px;
+  color: rgb(43, 43, 43);
+  transition: 0.5s;
+}
+
+.navbar{
+  margin-top: 5px;
+}
+
+.navbar-nav{
+  margin-top: 10px;
+}
+
+.singIn-section{
+  column-gap: 50px;
+ text-align: center;
+}
+
+.navbar-toggler{
+border: none;
+}
+
+.navbar-toggler:focus{
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+}
